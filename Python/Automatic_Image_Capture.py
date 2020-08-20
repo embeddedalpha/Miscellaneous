@@ -2,7 +2,7 @@
 import cv2 
 
 
-def Capture_Images(camera_index,number_of_images, image_directory): 
+def Automatic_Image_Capture(camera_index,number_of_images, image_directory): 
     camera = cv2.VideoCapture(camera_index)
     image_counter = 0
     
