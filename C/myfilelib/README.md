@@ -1,4 +1,4 @@
-# A handy and easy to use library to handle file related tasks.
+# A handy and easy-to-use library for handling files related tasks.
 
 ### Functions included in the library are:
 
