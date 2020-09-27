@@ -21,7 +21,7 @@ void Write_to_file(char *data, char *filename)
     
 }
 
-void Duplicate(char *file_1_name,char *file_2_name)
+void Duplicate_Files(char *file_1_name,char *file_2_name)
 {
     char c[1000];
     FILE *file2readfrom = fopen(file_1_name,"r");
