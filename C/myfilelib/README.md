@@ -41,5 +41,5 @@ Create_File("John Doe.txt");
 #### ListallFilesindir: This funcrion lists all the files in a directory. Function takes the name of directory as a parameter.
 
 ```C
-ListallFilesindir("C\USers\Downloads");
+ListallFilesindir(".");
 ```
