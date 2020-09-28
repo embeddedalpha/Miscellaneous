@@ -30,3 +30,8 @@ void Duplicate_Files(char *file_1_name,char *file_2_name)
     Write_to_file(c,file_2_name);
 
 }
+
+void Create_File(char *filename)
+{
+    FILE *file = fopen(filename,"w");
+}
