@@ -31,6 +31,14 @@ void Duplicate_Files(char *file_1_name,char *file_2_name)
 
 }
 
+char * Read_File(char *filename)
+{
+    static char c[1000];
+    FILE *file = fopen(filename,"r");
+    fgets(c,1000,file);
+    return c;
+}
+
 void Create_File(char *filename)
 {
     FILE *file = fopen(filename,"w");
