@@ -31,3 +31,9 @@ char *data;
 data = Read_File("file.txt");
 puts(data);
 ```
+
+#### Create_File: This file creates a file with the name passed as the parametere.
+
+```C
+Create_File("John Doe.txt");
+```
