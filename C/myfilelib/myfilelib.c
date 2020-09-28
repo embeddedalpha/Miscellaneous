@@ -43,3 +43,19 @@ void Create_File(char *filename)
 {
     FILE *file = fopen(filename,"w");
 }
+
+void ListallFilesindir(char *direct)
+{
+    DIR *directory;
+    struct dirent *dir;
+    directory = opendir(direct);
+    if(directory)
+    {
+        while ((dir = readdir(directory)) != NULL)
+        {
+            printf("%s \n", dir->d_name);
+        }
+        closedir(directory);
+    }
+
+}
