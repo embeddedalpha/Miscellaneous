@@ -32,8 +32,14 @@ data = Read_File("file.txt");
 puts(data);
 ```
 
-#### Create_File: This file creates a file with the name passed as the parametere.
+#### Create_File: This function creates a file with the name passed as the parametere.
 
 ```C
 Create_File("John Doe.txt");
+```
+
+#### ListallFilesindir: This funcrion lists all the files in a directory. Function takes the name of directory as a parameter.
+
+```C
+ListallFilesindir("C\USers\Downloads");
 ```
