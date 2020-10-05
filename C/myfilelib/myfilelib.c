@@ -77,7 +77,8 @@ void ListallFilesindir(char *direct)
 
 void Remove_Stuff_from_File(char *file1_name, char *file2_name, int character)
 {
-    int newdata[10000],i;
+    char newdata[10000];
+    int i;
     char *data;
     data = Read_File(file1_name);
     int length = strlen(data);
