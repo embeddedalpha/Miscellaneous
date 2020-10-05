@@ -73,3 +73,23 @@ void ListallFilesindir(char *direct)
     }
 
 }
+
+
+void Remove_Stuff_from_File(char *file1_name, char *file2_name, int character)
+{
+    int newdata[10000],i;
+    char *data;
+    data = Read_File(file1_name);
+    int length = strlen(data);
+    while (i < length)
+    {
+        if((int)data[i] == character)
+        {
+            data[i] = 127;
+        }
+        newdata[i] = data[i];
+        i++;
+    }
+    Write_to_file(newdata,file2_name);
+
+}
