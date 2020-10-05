@@ -44,3 +44,8 @@ Create_File("John Doe.txt");
 ```C
 ListallFilesindir(".");
 ```
+#### Remove_Stuff_from_File: This function deletes a particular character from a file. Function takes 3 arguments, file1_name: name of file from which the character has to be removed, file2_name: name of the file where the newly formed data is supposed to be saved, the name of the file can be the same as file1_name, and character: the character to be deleted. The user is excepted to go through the ASCII table and pass the appropriate decimal equivalent of the character to be deleted.
+
+```C
+Remove_Stuff_from_File("Array.txt", "Array.txt", 10) //This function removes all the new lines from the file
+```
