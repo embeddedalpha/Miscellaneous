@@ -8,7 +8,7 @@ from email import encoders
 
 def mail(email_receiver, filename):
     email_sender = "testrasp123@gmail.com"
-    password = "finalyear2019"
+    password = 
     subject = "Photo taken from camera. Intrusion Alert!!"
 
     msg = MIMEMultipart()
