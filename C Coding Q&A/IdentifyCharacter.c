@@ -15,10 +15,15 @@ void identify_case(int c)
         }
           
     }
+    else if(c >= 48 && c <= 57)
+    {
+        printf("%c is a number ",c);
+    }
     else
     {
-        printf("%c is a special character",c);
+        printf("%c is a special character");
     }
+    
        
 }
 
